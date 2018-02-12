@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<title>
+    I am working for U.
+</title>
+
+
+<body>
+
+    <div class="container">
+        <div class="row text-center ">
+            <div class="col-md-12">
+                <br /><br />
+                <h1><i class="fa fa-flag "></i>MyWorker</h1>
+
+                <h3>( Show me your identity! )</h3>
+                 <br />
+            </div>
+        </div>
+         <div class="row ">
+
+                  <div class="col-sm-6 col-sm-offset-3 form-box">
+                        <div class="panel panel-default">
+                            <div class="panel-heading" style="background-color: #0075b0 " >
+                                <strong style="color: snow ; font-size : 2.0em">   Login Form </strong>
+                            </div>
+                            <div class="panel-body"  style="background-color: #afd9ee">
+                                <form role="form" action="{{ url_for('login_do1') }}" method="post">
+                                    <br />
+                                    <div class="form-group">
+                                        <div class="col-md-1">
+                                            <i class="fa fa-user fa-2x"></i>
+                                        </div>
+                                        <div class="col-md-11">
+                                            {{ v_form.name() }}
+                                        </div>
+                                    </div>
+                                    <br/>
+                                    <br/>
+                                    <div class="form-group" >
+                                        <div class="col-md-1">
+                                            <i class="fa fa-key fa-2x"></i>
+                                        </div>
+                                        <div class="col-md-11">
+                                            {{ v_form.pwd() }}
+                                        </div>
+                                    </div>
+                                    <br/>
+                                    <br/>
+                                    <br/>
+                                    {{ v_form.submit() }}
+                                </form>
+
+                                <strong id = "warningtips" style="color: #AF0000">{{ v_info }}</strong>
+
+                                <hr/>
+                            </div>
+
+                        </div>
+                    </div>
+        </div>
+    </div>
+
+
+    <link rel=stylesheet type=text/css href="{{ url_for('static', filename='bootstrap337/css/bootstrap.min.css') }}">
+    <link rel=stylesheet type=text/css href="{{ url_for('static', filename='web-fonts-with-css/css/fontawesome-all.min.css') }}">
+    <link rel=stylesheet type=text/css href="{{ url_for('static', filename='mystyle.css') }}">
+    <script src="{{ url_for('static', filename='myjs.js') }}"></script>
+</body>
+
+</html>
