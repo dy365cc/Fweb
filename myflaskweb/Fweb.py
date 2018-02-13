@@ -17,7 +17,7 @@ def fb_index():
         v_pwd = logform.name.data
 
         #return redirect(url_for('login_do'))
-    return render_template('mypage/index.html',v_form = logform)
+    return render_template('mypage/login.html')
 
 
 
