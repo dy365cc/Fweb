@@ -14,7 +14,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Fweb$Fweb.coverage" NAME="Fweb Coverage Results" MODIFIED="1518493337593" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Fweb$Fweb.coverage" NAME="Fweb Coverage Results" MODIFIED="1518598162925" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/Fweb$mysql.coverage" NAME="mysql Coverage Results" MODIFIED="1516964361809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -32,7 +32,7 @@
       <file leaf-file-name="Fform.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Fform.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="462" max-vertical-offset="682">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="651">
               <caret line="21" column="75" selection-start-line="21" selection-start-column="75" selection-end-line="21" selection-end-column="75" />
               <folding>
                 <element signature="e#43#74#0" expanded="true" />
@@ -44,8 +44,8 @@
       <file leaf-file-name="mysql.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mysql.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1197">
-              <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="625" max-vertical-offset="1197">
+              <caret line="46" column="26" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
               <folding>
                 <marker date="1518309616532" expanded="true" signature="1367:1416" placeholder="select passw..user..." />
               </folding>
@@ -63,11 +63,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="oldindex.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="oldindex.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/mypage/oldindex.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.47404063" vertical-offset="0" max-vertical-offset="1596">
-              <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+            <state vertical-scroll-proportion="-14.0" vertical-offset="693" max-vertical-offset="1596">
+              <caret line="53" column="32" selection-start-line="53" selection-start-column="32" selection-end-line="53" selection-end-column="103" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#strong#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -78,11 +78,44 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/mypage/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-20.166666" vertical-offset="235" max-vertical-offset="1092">
+              <caret line="40" column="44" selection-start-line="40" selection-start-column="44" selection-end-line="40" selection-end-column="56" />
+              <folding>
+                <element signature="n#style#0;n#h1#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#strong#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="myjs.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/myjs.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
+              <caret line="3" column="64" selection-start-line="3" selection-start-column="64" selection-end-line="3" selection-end-column="64" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="mystyle.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/mystyle.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="110" max-vertical-offset="506">
-              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="483">
+              <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fallback.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/fallback.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="4158" max-vertical-offset="5586">
+              <caret line="211" column="19" selection-start-line="211" selection-start-column="19" selection-end-line="211" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -91,11 +124,26 @@
       <file leaf-file-name="Fweb.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Fweb.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="652" max-vertical-offset="1210">
-              <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="630" max-vertical-offset="1239">
+              <caret line="42" column="22" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="22" />
               <folding>
-                <marker date="1518493332583" expanded="true" signature="793:841" placeholder="select * fro..user..." />
-                <marker date="1518493332583" expanded="true" signature="872:919" placeholder="select * fro..user..." />
+                <marker date="1518597042791" expanded="true" signature="814:860" placeholder="select * fro..user..." />
+                <marker date="1518597042791" expanded="true" signature="891:935" placeholder="select * fro..user..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="loginpage.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/mypage/loginpage.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.61723447" vertical-offset="42595" max-vertical-offset="45108">
+              <caret line="2043" column="8" selection-start-line="2043" selection-start-column="8" selection-end-line="2043" selection-end-column="8" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#1;n#a#0;n#li#1;n#ul#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#a#0;n#li#2;n#ul#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#a#0;n#li#3;n#ul#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#a#0;n#li#4;n#ul#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -108,13 +156,14 @@
       <list>
         <option value="$PROJECT_DIR$/static/mystyle.css" />
         <option value="$PROJECT_DIR$/Fform.py" />
-        <option value="$PROJECT_DIR$/templates/mypage/index.html" />
-        <option value="$PROJECT_DIR$/templates/mypage/loginpage.html" />
         <option value="$PROJECT_DIR$/static/myjs.js" />
         <option value="$PROJECT_DIR$/templates/mypage/login.html" />
-        <option value="$PROJECT_DIR$/Fweb.py" />
         <option value="$PROJECT_DIR$/mysql.py" />
         <option value="$PROJECT_DIR$/templates/mypage/oldindex.html" />
+        <option value="$PROJECT_DIR$/static/fallback.css" />
+        <option value="$PROJECT_DIR$/templates/mypage/index.html" />
+        <option value="$PROJECT_DIR$/Fweb.py" />
+        <option value="$PROJECT_DIR$/templates/mypage/loginpage.html" />
       </list>
     </option>
   </component>
@@ -481,29 +530,29 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="876" extended-state="7" />
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17847222" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3294271" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962447" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3269494" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17847222" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14713542" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21744792" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3269494" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23567708" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -531,34 +580,18 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="19" />
+      <option name="time" value="23" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/templates/mypage/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6842">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/mystyle.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="110" max-vertical-offset="506">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Fweb.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="652" max-vertical-offset="1210">
           <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
           <folding>
-            <marker date="1518493332583" expanded="true" signature="793:841" placeholder="select * fro..user..." />
-            <marker date="1518493332583" expanded="true" signature="872:919" placeholder="select * fro..user..." />
+            <marker date="1518597042791" expanded="true" signature="814:860" placeholder="select * fro..user..." />
+            <marker date="1518597042791" expanded="true" signature="891:935" placeholder="select * fro..user..." />
           </folding>
         </state>
       </provider>
@@ -596,8 +629,8 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="22" max-vertical-offset="1210">
           <caret line="1" column="1" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
           <folding>
-            <marker date="1518493332583" expanded="true" signature="793:841" placeholder="select * fro..user..." />
-            <marker date="1518493332583" expanded="true" signature="872:919" placeholder="select * fro..user..." />
+            <marker date="1518597042791" expanded="true" signature="814:860" placeholder="select * fro..user..." />
+            <marker date="1518597042791" expanded="true" signature="891:935" placeholder="select * fro..user..." />
           </folding>
         </state>
       </provider>
@@ -625,8 +658,8 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="19" max-vertical-offset="1045">
           <caret line="1" column="1" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
           <folding>
-            <marker date="1518493332583" expanded="true" signature="793:841" placeholder="select * fro..user..." />
-            <marker date="1518493332583" expanded="true" signature="872:919" placeholder="select * fro..user..." />
+            <marker date="1518597042791" expanded="true" signature="814:860" placeholder="select * fro..user..." />
+            <marker date="1518597042791" expanded="true" signature="891:935" placeholder="select * fro..user..." />
           </folding>
         </state>
       </provider>
@@ -667,8 +700,8 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1032">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1518493332583" expanded="true" signature="793:841" placeholder="select * fro..user..." />
-            <marker date="1518493332583" expanded="true" signature="872:919" placeholder="select * fro..user..." />
+            <marker date="1518597042791" expanded="true" signature="814:860" placeholder="select * fro..user..." />
+            <marker date="1518597042791" expanded="true" signature="891:935" placeholder="select * fro..user..." />
           </folding>
         </state>
       </provider>
@@ -678,8 +711,8 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="672">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
-            <marker date="1518493332583" expanded="true" signature="793:841" placeholder="select * fro..user..." />
-            <marker date="1518493332583" expanded="true" signature="872:919" placeholder="select * fro..user..." />
+            <marker date="1518597042791" expanded="true" signature="814:860" placeholder="select * fro..user..." />
+            <marker date="1518597042791" expanded="true" signature="891:935" placeholder="select * fro..user..." />
           </folding>
         </state>
       </provider>
@@ -703,8 +736,8 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="138" max-vertical-offset="672">
           <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding>
-            <marker date="1518493332583" expanded="true" signature="793:841" placeholder="select * fro..user..." />
-            <marker date="1518493332583" expanded="true" signature="872:919" placeholder="select * fro..user..." />
+            <marker date="1518597042791" expanded="true" signature="814:860" placeholder="select * fro..user..." />
+            <marker date="1518597042791" expanded="true" signature="891:935" placeholder="select * fro..user..." />
           </folding>
         </state>
       </provider>
@@ -728,8 +761,8 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="138" max-vertical-offset="672">
           <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding>
-            <marker date="1518493332583" expanded="true" signature="793:841" placeholder="select * fro..user..." />
-            <marker date="1518493332583" expanded="true" signature="872:919" placeholder="select * fro..user..." />
+            <marker date="1518597042791" expanded="true" signature="814:860" placeholder="select * fro..user..." />
+            <marker date="1518597042791" expanded="true" signature="891:935" placeholder="select * fro..user..." />
           </folding>
         </state>
       </provider>
@@ -753,8 +786,8 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="576">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1518493332583" expanded="true" signature="793:841" placeholder="select * fro..user..." />
-            <marker date="1518493332583" expanded="true" signature="872:919" placeholder="select * fro..user..." />
+            <marker date="1518597042791" expanded="true" signature="814:860" placeholder="select * fro..user..." />
+            <marker date="1518597042791" expanded="true" signature="891:935" placeholder="select * fro..user..." />
           </folding>
         </state>
       </provider>
@@ -778,8 +811,8 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="528">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1518493332583" expanded="true" signature="793:841" placeholder="select * fro..user..." />
-            <marker date="1518493332583" expanded="true" signature="872:919" placeholder="select * fro..user..." />
+            <marker date="1518597042791" expanded="true" signature="814:860" placeholder="select * fro..user..." />
+            <marker date="1518597042791" expanded="true" signature="891:935" placeholder="select * fro..user..." />
           </folding>
         </state>
       </provider>
@@ -796,8 +829,8 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="528">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1518493332583" expanded="true" signature="793:841" placeholder="select * fro..user..." />
-            <marker date="1518493332583" expanded="true" signature="872:919" placeholder="select * fro..user..." />
+            <marker date="1518597042791" expanded="true" signature="814:860" placeholder="select * fro..user..." />
+            <marker date="1518597042791" expanded="true" signature="891:935" placeholder="select * fro..user..." />
           </folding>
         </state>
       </provider>
@@ -814,8 +847,8 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="528">
           <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
           <folding>
-            <marker date="1518493332583" expanded="true" signature="793:841" placeholder="select * fro..user..." />
-            <marker date="1518493332583" expanded="true" signature="872:919" placeholder="select * fro..user..." />
+            <marker date="1518597042791" expanded="true" signature="814:860" placeholder="select * fro..user..." />
+            <marker date="1518597042791" expanded="true" signature="891:935" placeholder="select * fro..user..." />
           </folding>
         </state>
       </provider>
@@ -832,8 +865,8 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="528">
           <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
           <folding>
-            <marker date="1518493332583" expanded="true" signature="793:841" placeholder="select * fro..user..." />
-            <marker date="1518493332583" expanded="true" signature="872:919" placeholder="select * fro..user..." />
+            <marker date="1518597042791" expanded="true" signature="814:860" placeholder="select * fro..user..." />
+            <marker date="1518597042791" expanded="true" signature="891:935" placeholder="select * fro..user..." />
           </folding>
         </state>
       </provider>
@@ -850,8 +883,8 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="528">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1518493332583" expanded="true" signature="793:841" placeholder="select * fro..user..." />
-            <marker date="1518493332583" expanded="true" signature="872:919" placeholder="select * fro..user..." />
+            <marker date="1518597042791" expanded="true" signature="814:860" placeholder="select * fro..user..." />
+            <marker date="1518597042791" expanded="true" signature="891:935" placeholder="select * fro..user..." />
           </folding>
         </state>
       </provider>
@@ -861,8 +894,8 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="528">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1518493332583" expanded="true" signature="793:841" placeholder="select * fro..user..." />
-            <marker date="1518493332583" expanded="true" signature="872:919" placeholder="select * fro..user..." />
+            <marker date="1518597042791" expanded="true" signature="814:860" placeholder="select * fro..user..." />
+            <marker date="1518597042791" expanded="true" signature="891:935" placeholder="select * fro..user..." />
           </folding>
         </state>
       </provider>
@@ -872,8 +905,8 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="528">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1518493332583" expanded="true" signature="793:841" placeholder="select * fro..user..." />
-            <marker date="1518493332583" expanded="true" signature="872:919" placeholder="select * fro..user..." />
+            <marker date="1518597042791" expanded="true" signature="814:860" placeholder="select * fro..user..." />
+            <marker date="1518597042791" expanded="true" signature="891:935" placeholder="select * fro..user..." />
           </folding>
         </state>
       </provider>
@@ -883,8 +916,8 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="528">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1518493332583" expanded="true" signature="793:841" placeholder="select * fro..user..." />
-            <marker date="1518493332583" expanded="true" signature="872:919" placeholder="select * fro..user..." />
+            <marker date="1518597042791" expanded="true" signature="814:860" placeholder="select * fro..user..." />
+            <marker date="1518597042791" expanded="true" signature="891:935" placeholder="select * fro..user..." />
           </folding>
         </state>
       </provider>
@@ -894,8 +927,8 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="528">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1518493332583" expanded="true" signature="793:841" placeholder="select * fro..user..." />
-            <marker date="1518493332583" expanded="true" signature="872:919" placeholder="select * fro..user..." />
+            <marker date="1518597042791" expanded="true" signature="814:860" placeholder="select * fro..user..." />
+            <marker date="1518597042791" expanded="true" signature="891:935" placeholder="select * fro..user..." />
           </folding>
         </state>
       </provider>
@@ -921,55 +954,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/mystyle.css">
+    <entry file="file://$PROJECT_DIR$/templates/mypage/oldindex.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="552">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="-14.0" vertical-offset="693" max-vertical-offset="1596">
+          <caret line="53" column="32" selection-start-line="53" selection-start-column="32" selection-end-line="53" selection-end-column="103" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#strong#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#strong#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/myjs.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13610587" vertical-offset="0" max-vertical-offset="529">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
           <caret line="3" column="64" selection-start-line="3" selection-start-column="64" selection-end-line="3" selection-end-column="64" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/mypage/loginpage.html">
+    <entry file="file://$PROJECT_DIR$/static/mystyle.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24193548" vertical-offset="0" max-vertical-offset="496">
-          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="483">
+          <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Fform.py">
+    <entry file="file://$PROJECT_DIR$/static/fallback.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="399" max-vertical-offset="589">
-          <caret line="21" column="75" selection-start-line="21" selection-start-column="75" selection-end-line="21" selection-end-column="75" />
-          <folding>
-            <element signature="e#43#74#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Fweb.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="652" max-vertical-offset="1210">
-          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-          <folding>
-            <marker date="1518493332583" expanded="true" signature="793:841" placeholder="select * fro..user..." />
-            <marker date="1518493332583" expanded="true" signature="872:919" placeholder="select * fro..user..." />
-          </folding>
+        <state vertical-scroll-proportion="0.0" vertical-offset="4158" max-vertical-offset="5586">
+          <caret line="211" column="19" selection-start-line="211" selection-start-column="19" selection-end-line="211" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mysql.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1197">
-          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="630" max-vertical-offset="1197">
+          <caret line="46" column="26" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
           <folding>
             <marker date="1518309616532" expanded="true" signature="1367:1416" placeholder="select passw..user..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/mypage/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-20.166666" vertical-offset="235" max-vertical-offset="1092">
+          <caret line="40" column="44" selection-start-line="40" selection-start-column="44" selection-end-line="40" selection-end-column="56" />
+          <folding>
+            <element signature="n#style#0;n#h1#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#strong#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -982,15 +1020,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/mypage/oldindex.html">
+    <entry file="file://$PROJECT_DIR$/Fform.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.47404063" vertical-offset="0" max-vertical-offset="1596">
-          <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="651">
+          <caret line="21" column="75" selection-start-line="21" selection-start-column="75" selection-end-line="21" selection-end-column="75" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#strong#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#strong#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#43#74#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fweb.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="630" max-vertical-offset="1239">
+          <caret line="42" column="22" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="22" />
+          <folding>
+            <marker date="1518597042791" expanded="true" signature="814:860" placeholder="select * fro..user..." />
+            <marker date="1518597042791" expanded="true" signature="891:935" placeholder="select * fro..user..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/mypage/loginpage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.61723447" vertical-offset="42595" max-vertical-offset="45108">
+          <caret line="2043" column="8" selection-start-line="2043" selection-start-column="8" selection-end-line="2043" selection-end-column="8" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#a#0;n#li#1;n#ul#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#a#0;n#li#2;n#ul#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#a#0;n#li#3;n#ul#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#a#0;n#li#4;n#ul#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -1,43 +1,46 @@
-<!DOCTYPE HTML>
+﻿<!DOCTYPE HTML>
 <html dir="ltr" lang="en-US">
 	<head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
-	<title>Web 2.0 Login Form by Azmind.com</title>
-
-	<!--- CSS --->
-	<link rel="stylesheet" href="style.css" type="text/css" />
-
-
-	<!--- Javascript libraries (jQuery and Selectivizr) used for the custom checkbox --->
-
-	<!--[if (gte IE 6)&(lte IE 8)]>
-		<script type="text/javascript" src="jquery-1.7.1.min.js"></script>
-		<script type="text/javascript" src="selectivizr.js"></script>
-		<noscript><link rel="stylesheet" href="fallback.css" /></noscript>
-	<![endif]-->
+	<title>My worker</title>
 
 	</head>
 
 	<body>
 		<div id="container">
-			<form action="welcome.html">
-				<div class="login">LOGIN</div>
-				<div class="username-text">Username:</div>
-				<div class="password-text">Password:</div>
+            <h1 style="color: #101010; font-size: 50px; align-content: center">MYWORKER</h1>
+            <br/>
+            <hr/>
+			<form action="{{ url_for('login_do1') }}" method="post">
+				<div class="login">登录</div>
+				<div class="username-text">    </div>
+				<div class="password-text">    </div>
 				<div class="username-field">
-					<input type="text" name="username" value="azmind" />
+					<input type="text" name="username" placeholder="用户名..." />
 				</div>
 				<div class="password-field">
-					<input type="password" name="password" value="azmind" />
+					<input type="password" name="password" placeholder="密码..." />
 				</div>
-				<input type="checkbox" name="remember-me" id="remember-me" /><label for="remember-me">Remember me</label>
-				<div class="forgot-usr-pwd">Forgot <a href="#">username</a> or <a href="#">password</a>?</div>
-				<input type="submit" name="submit" value="GO" />
+				<input type="submit" name="submit" value="  GO  " />
 			</form>
+            <strong id = "warningtips" style="color: #AF0000; font-size: larger">{{ v_info }}</strong>
 		</div>
 		<div id="footer">
-			Web 2.0 Login More Templates <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a>
+			version 1.0  author dodo
 		</div>
 	</body>
+
+	<!--- CSS --->
+	<link rel="stylesheet" href="../../static/style.css" type="text/css" />
+
+
+	<!--- Javascript libraries (jQuery and Selectivizr) used for the custom checkbox --->
+
+	<!--[if (gte IE 6)&(lte IE 8)]>
+		<script type="text/javascript" src="../../static/jquery-1.7.1.min.js"></script>
+		<script type="text/javascript" src="../../static/selectivizr.js"></script>
+		<noscript><link rel="stylesheet" href="../../static/fallback.css" /></noscript>
+	<![endif]-->
+
 </html>
