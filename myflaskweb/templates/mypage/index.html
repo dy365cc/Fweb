@@ -1,71 +1,43 @@
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
-<title>
-    I am working for U.
-</title>
+<!DOCTYPE HTML>
+<html dir="ltr" lang="en-US">
+	<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+	<title>Web 2.0 Login Form by Azmind.com</title>
+
+	<!--- CSS --->
+	<link rel="stylesheet" href="style.css" type="text/css" />
 
 
-<body>
+	<!--- Javascript libraries (jQuery and Selectivizr) used for the custom checkbox --->
 
-    <div class="container">
-        <div class="row text-center ">
-            <div class="col-md-12">
-                <br /><br />
-                <h1><i class="fa fa-flag "></i>MyWorker</h1>
+	<!--[if (gte IE 6)&(lte IE 8)]>
+		<script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+		<script type="text/javascript" src="selectivizr.js"></script>
+		<noscript><link rel="stylesheet" href="fallback.css" /></noscript>
+	<![endif]-->
 
-                <h3>( Show me your identity! )</h3>
-                 <br />
-            </div>
-        </div>
-         <div class="row ">
+	</head>
 
-                  <div class="col-sm-6 col-sm-offset-3 form-box">
-                        <div class="panel panel-default">
-                            <div class="panel-heading" style="background-color: #0075b0 " >
-                                <strong style="color: snow ; font-size : 2.0em">   Login Form </strong>
-                            </div>
-                            <div class="panel-body"  style="background-color: #afd9ee">
-                                <form role="form" action="{{ url_for('login_do1') }}" method="post">
-                                    <br />
-                                    <div class="form-group">
-                                        <div class="col-md-1">
-                                            <i class="fa fa-user fa-2x"></i>
-                                        </div>
-                                        <div class="col-md-11">
-                                            {{ v_form.name() }}
-                                        </div>
-                                    </div>
-                                    <br/>
-                                    <br/>
-                                    <div class="form-group" >
-                                        <div class="col-md-1">
-                                            <i class="fa fa-key fa-2x"></i>
-                                        </div>
-                                        <div class="col-md-11">
-                                            {{ v_form.pwd() }}
-                                        </div>
-                                    </div>
-                                    <br/>
-                                    <br/>
-                                    <br/>
-                                    {{ v_form.submit() }}
-                                </form>
-
-                                <strong id = "warningtips" style="color: #AF0000">{{ v_info }}</strong>
-
-                                <hr/>
-                            </div>
-
-                        </div>
-                    </div>
-        </div>
-    </div>
-
-
-    <link rel=stylesheet type=text/css href="{{ url_for('static', filename='bootstrap337/css/bootstrap.min.css') }}">
-    <link rel=stylesheet type=text/css href="{{ url_for('static', filename='web-fonts-with-css/css/fontawesome-all.min.css') }}">
-    <link rel=stylesheet type=text/css href="{{ url_for('static', filename='mystyle.css') }}">
-    <script src="{{ url_for('static', filename='myjs.js') }}"></script>
-</body>
-
+	<body>
+		<div id="container">
+			<form action="welcome.html">
+				<div class="login">LOGIN</div>
+				<div class="username-text">Username:</div>
+				<div class="password-text">Password:</div>
+				<div class="username-field">
+					<input type="text" name="username" value="azmind" />
+				</div>
+				<div class="password-field">
+					<input type="password" name="password" value="azmind" />
+				</div>
+				<input type="checkbox" name="remember-me" id="remember-me" /><label for="remember-me">Remember me</label>
+				<div class="forgot-usr-pwd">Forgot <a href="#">username</a> or <a href="#">password</a>?</div>
+				<input type="submit" name="submit" value="GO" />
+			</form>
+		</div>
+		<div id="footer">
+			Web 2.0 Login More Templates <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a>
+		</div>
+	</body>
 </html>
