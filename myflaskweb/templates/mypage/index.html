@@ -1,71 +1,46 @@
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
-<title>
-    I am working for U.
-</title>
+﻿<!DOCTYPE HTML>
+<html dir="ltr" lang="en-US">
+	<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+	<title>My worker</title>
+
+	</head>
+
+	<body>
+		<div id="container">
+            <h1 style="color: #101010; font-size: 50px; align-content: center">MYWORKER</h1>
+            <br/>
+            <hr/>
+			<form action="{{ url_for('login_do1') }}" method="post">
+				<div class="login">登录</div>
+				<div class="username-text">    </div>
+				<div class="password-text">    </div>
+				<div class="username-field">
+					<input type="text" name="username" placeholder="用户名..." />
+				</div>
+				<div class="password-field">
+					<input type="password" name="password" placeholder="密码..." />
+				</div>
+				<input type="submit" name="submit" value="  GO  " />
+			</form>
+            <strong id = "warningtips" style="color: #AF0000; font-size: larger">{{ v_info }}</strong>
+		</div>
+		<div id="footer">
+			version 1.0  author dodo
+		</div>
+	</body>
+
+	<!--- CSS --->
+	<link rel="stylesheet" href="../../static/style.css" type="text/css" />
 
 
-<body>
+	<!--- Javascript libraries (jQuery and Selectivizr) used for the custom checkbox --->
 
-    <div class="container">
-        <div class="row text-center ">
-            <div class="col-md-12">
-                <br /><br />
-                <h1><i class="fa fa-flag "></i>MyWorker</h1>
-
-                <h3>( Show me your identity! )</h3>
-                 <br />
-            </div>
-        </div>
-         <div class="row ">
-
-                  <div class="col-sm-6 col-sm-offset-3 form-box">
-                        <div class="panel panel-default">
-                            <div class="panel-heading" style="background-color: #0075b0 " >
-                                <strong style="color: snow ; font-size : 2.0em">   Login Form </strong>
-                            </div>
-                            <div class="panel-body"  style="background-color: #afd9ee">
-                                <form role="form" action="{{ url_for('login_do1') }}" method="post">
-                                    <br />
-                                    <div class="form-group">
-                                        <div class="col-md-1">
-                                            <i class="fa fa-user fa-2x"></i>
-                                        </div>
-                                        <div class="col-md-11">
-                                            {{ v_form.name() }}
-                                        </div>
-                                    </div>
-                                    <br/>
-                                    <br/>
-                                    <div class="form-group" >
-                                        <div class="col-md-1">
-                                            <i class="fa fa-key fa-2x"></i>
-                                        </div>
-                                        <div class="col-md-11">
-                                            {{ v_form.pwd() }}
-                                        </div>
-                                    </div>
-                                    <br/>
-                                    <br/>
-                                    <br/>
-                                    {{ v_form.submit() }}
-                                </form>
-
-                                <strong id = "warningtips" style="color: #AF0000">{{ v_info }}</strong>
-
-                                <hr/>
-                            </div>
-
-                        </div>
-                    </div>
-        </div>
-    </div>
-
-
-    <link rel=stylesheet type=text/css href="{{ url_for('static', filename='bootstrap337/css/bootstrap.min.css') }}">
-    <link rel=stylesheet type=text/css href="{{ url_for('static', filename='web-fonts-with-css/css/fontawesome-all.min.css') }}">
-    <link rel=stylesheet type=text/css href="{{ url_for('static', filename='mystyle.css') }}">
-    <script src="{{ url_for('static', filename='myjs.js') }}"></script>
-</body>
+	<!--[if (gte IE 6)&(lte IE 8)]>
+		<script type="text/javascript" src="../../static/jquery-1.7.1.min.js"></script>
+		<script type="text/javascript" src="../../static/selectivizr.js"></script>
+		<noscript><link rel="stylesheet" href="../../static/fallback.css" /></noscript>
+	<![endif]-->
 
 </html>
