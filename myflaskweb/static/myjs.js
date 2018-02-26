@@ -1,5 +1,5 @@
 
 function cleantips()
 {
-    document.getElementById("warningtips").style.display="none";
+    document.getElementById("warningtips").textContent = "";
 }
